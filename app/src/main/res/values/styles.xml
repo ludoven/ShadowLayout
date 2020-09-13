@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <declare-styleable name="ShadowContainer">
+        <attr name="containerShadowColor" format="color"/>
+        <attr name="containerShadowRadius" format="dimension"/>
+        <attr name="containerDeltaLength" format="dimension"/>
+        <attr name="containerCornerRadius" format="dimension"/>
+        <attr name="deltaX" format="dimension"/>
+        <attr name="deltaY" format="dimension"/>
+        <attr name="enable" format="boolean"/>
+    </declare-styleable>
+</resources>
